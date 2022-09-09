@@ -10,15 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine('how many pizzas?');
+            Console.WriteLine("how many pizzas?");
             int answer = int.Parse(Console.ReadLine());
-
-            for (int i = 0; i < answer; i++) ;
+            if (answer < 1)
             {
-                Console.WriteLine('eat pizza number' + (i+1));
+                Console.WriteLine("Youre going to put on weight");
             }
 
-            Console.ReadLine;
+            Console.ReadLine();
         }
     }
 }
