@@ -10,6 +10,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine('how many pizzas?');
+            int answer = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < answer; i++) ;
+            {
+                Console.WriteLine('eat pizza number' + (i+1));
+            }
+
+            Console.ReadLine;
         }
     }
 }
