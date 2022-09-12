@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System;                                   //import
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,11 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("how many pizzas?");
-            int answer = int.Parse(Console.ReadLine());
+            Console.WriteLine("how many pizzas?");          //asks questions
+            int answer = int.Parse(Console.ReadLine());             //take input
             if (answer >1)
             {
-                Console.WriteLine("Youre going to put on weight");
+                Console.WriteLine("Youre going to put on weight");          //outputs based on response
             }
             if (answer==1)
             {
